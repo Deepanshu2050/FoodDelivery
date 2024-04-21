@@ -1,0 +1,200 @@
+@media(max-width: 450px) {
+    .container {
+        width: 100%;
+       
+    }
+
+
+    .heding_banner h1 {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+
+    .aboutbtn {
+        margin-top: 100px;
+        margin-left: 15px;
+        padding-right: 0;
+    }
+    .aboutbtn1{
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+
+    .about_content h1 {
+        margin-left: 20px;
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .about_content p {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .abouticon {
+        display: none;
+    }
+
+    .aboutimg img {
+        height: 300px;
+
+    }
+
+    .aboutbtn2 {
+        margin-left: 20px;
+        padding: 0;
+    }
+
+    .counter {
+        display: table-column;
+        margin-left: 130px;
+    }
+
+    .cuntervideo {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .heding_btn button {
+        margin-left: 20px;
+        width: 150px;
+
+    }
+
+    .heding_btn h1 {
+        margin-left: 30px;
+        font-size: 30px;
+    }
+
+    .service_card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service_card2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service_card3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .event_buttons {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .perant_event {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* banner section  */
+    .hero_img img{
+        width: 100%;
+    }
+ 
+
+
+
+    .book_site1 img {
+        display: none;
+    }
+
+    .book_site2 img {
+        display: none;
+    }
+
+    .book_middle_box,
+    .aboutbtn {
+        display: none;
+    }
+
+    .event_section {
+        margin-top: 100px;
+    }
+
+    .event_section image {
+        width: 100%;
+    }
+    .event_buttons{
+        margin: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* .aboutimg img{
+    width: 100%;
+ } */
+    body img {
+        width: 100%;
+    }
+
+    body h1 {
+        font-size: 20px;
+    }
+
+    .manu_box_content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .manu_box_content img {
+        width: 100px;
+        display: none;
+    }
+
+    .kalu {
+        width: 20%;
+    }
+
+    .counter1 {
+        width: 100%;
+        padding-left: 20px;
+        margin-left: 0;
+        display: none;
+    }
+
+    .text_start h4 {
+        margin: 0;
+        display: none;
+        
+    }
+
+    .team_head h1 {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+
+    .team_head button {
+        margin-left: auto;
+        margin-left: 20px;
+    }
+
+    .manu_section {
+        margin-top: 50px;
+    }
+    .manu_box_content{
+        margin-left: -15px !important;
+    }
+    .team-item{
+        margin-top: 30px;
+    }
+    /* start footer  */
+    .fdata{
+        flex-direction: column;
+    }
+    .ficon{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .floc{
+        margin: 0;
+        text-align: center;
+    }
+}

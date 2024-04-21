@@ -1,0 +1,781 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo_nav {
+    font-family: 'Playball', cursive;
+
+}
+
+.logo_nav a {
+    color: #d4a762 !important;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.logo_nav span {
+    color: black;
+}
+
+.header_nav {
+    margin-right: 1px;
+    font-size: 18px;
+    color: gray;
+}
+
+.header_nav a {
+    margin: 10px;
+}
+
+.button1 {
+    border-radius: 50%;
+    background-color: #d4a762;
+    border: 0;
+    margin-top: 13px;
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+
+.button1:hover {
+    background-color: black;
+    color: #d4a762;
+}
+
+.button2:hover {
+    background-color: black;
+    color: #d4a762;
+}
+
+.button2 {
+    background-color: #d4a762;
+    border: 0;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+}
+
+.header_nav li a {
+    color: grey;
+}
+
+.header_nav li a:hover {
+    color: #d4a762;
+}
+
+.nav_section {
+    border-bottom: 1px solid gainsboro;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* <!-- banner section start --> */
+
+.heding_banner button {
+    border: 1px solid #d4a762;
+    border-radius: 30px;
+    width: 300px;
+    height: 35px;
+    margin-top: 100px;
+}
+
+.heding_banner h1 {
+    font-family: 'Playball', cursive;
+    font-size: 70px;
+    font-weight: 550;
+    margin-top: 30px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+
+}
+
+.banner_btn button {
+    background-color: #d4a762;
+    width: 170px;
+    height: 50px;
+    color: black;
+    border: 0;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.banner_btn button:hover {
+    background-color: black;
+    color: #d4a762;
+}
+.hero_img img{
+    width: 400px;
+}
+
+/* <!-- banner section and --> */
+.aboutbtn1{
+    border: 1px solid #d4a762;
+    border-radius: 30px;
+    width: 150px;
+    margin-left: 195px;
+}
+.aboutbtn {
+    border: 1px solid #d4a762;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.about_content h1 {
+    margin-left: 200px;
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+}
+
+.about_content p {
+    margin-left: 200px;
+}
+
+.aboutbtn2 {
+    margin-left: 200px;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #d4a762;
+    font-size: 18px;
+}
+
+.counter1 {
+    width: 200px;
+    height: 200px;
+    background-color: #d4a762;
+    border-radius: 30px;
+}
+
+.counter1 i {
+    font-size: 70px;
+    color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.counter1 h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Playball', cursive;
+    margin-top: 10px;
+}
+
+.counter1 h5 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.counter {
+    display: flex;
+
+}
+
+.counter1 {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.cuntervideo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.videicon {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 120px;
+
+}
+
+.videicon i {
+    margin-left: 25px;
+    margin-top: 18px;
+    font-size: 25px;
+}
+
+.aboutbtn2:hover {
+    background-color: black;
+    color: #d4a762;
+}
+
+/* 
+services section start */
+.service {
+    margin-top: 50px;
+}
+.heding_btn{
+   align-items: center;
+   text-align: center;
+}
+
+.heding_btn button {
+    border: 1px solid #d4a762;
+    border-radius: 30px;
+    width: 180px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.heding_btn h1 {
+    font-family: 'Playball', cursive;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.service_card {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 15px wheat;
+    margin-left: 85px;
+}
+
+.service_card i {
+    font-size: 100px;
+    color: #d4a762;
+    margin-top: 20px;
+}
+
+.service_card button {
+    border: 1px solid #d4a762;
+    border-radius: 30px;
+    width: 130px;
+    background-color: #d4a762;
+}
+
+
+
+.service_card h6 {
+    color: grey;
+}
+
+.service_card2 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 15px wheat;
+    margin-left: 60px;
+
+}
+
+.service_card2 i {
+    font-size: 100px;
+    color: #d4a762;
+    margin-top: 20px;
+}
+
+.service_card2 button {
+    border: 1px solid #d4a762;
+    border-radius: 30px;
+    width: 130px;
+    background-color: #d4a762;
+}
+
+.service_card2 button:hover {
+    background-color: black;
+    color: #d4a762;
+}
+
+.service_card2 h6 {
+    color: grey;
+}
+
+.service_card3 {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 0px 15px wheat;
+    margin-left: 60px;
+
+}
+
+.service_card3 i {
+    font-size: 150px;
+    color: #d4a762;
+    margin-top: 20px;
+}
+
+.service_card3 button {
+    border: 1px solid #d4a762;
+    border-radius: 30px;
+    width: 130px;
+    background-color: #d4a762;
+}
+
+.service_card3 button:hover {
+    background-color: black;
+    color: #d4a762;
+}
+
+.service_card3 h6 {
+    color: grey;
+}
+
+.service_card {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.service_card2 {
+    margin-top: 80px;
+}
+
+.service_card3 {
+    margin-top: 80px;
+}
+
+
+/* event section start */
+.events_btn {
+
+    margin-top: 80px;
+}
+
+.heding_btn .event_heding {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.event_buttons button {
+    border: 1px solid #d4a762;
+    border-radius: 20px;
+    width: 130px;
+    height: 35px;
+
+}
+
+.event_buttons button:hover {
+    background-color: #d4a762;
+    color: black;
+}
+
+.event_buttons {
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.event_image img {
+    width: 320px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.event_image {
+    position: relative;
+}
+
+.event_box {
+    width: 320px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #d4a762;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    margin-left: 10px;
+}
+
+.event_box:hover {
+    opacity: 0.7;
+}
+
+
+.event_box h5 {
+    margin: 15px;
+    font-size: 25px;
+}
+
+.event_box i {
+    margin-left: 140px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.perant_event {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event_image {
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.event_image img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+/* event section and */
+
+
+/* menu section start */
+.manu_box_content img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.manu_box_content {
+    flex-direction: row;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.text_start h4 {
+    
+    color: #d4a762;
+}
+
+.text_start {
+    border-bottom: 2px dotted #d4a762;
+    margin-left: 25px;
+
+
+}
+
+.text_start {
+    height: 40px;
+}
+
+/* manu section end */
+
+/* book section end */
+.book_middle_box {
+    border-top: 2px solid #d4a762;
+    border-bottom: 2px solid #d4a762;
+    overflow: hidden;
+    background-color: whitesmoke;
+
+}
+
+.book_site2 img {
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 10px;
+    opacity: 0.7;
+}
+
+.book_site1 img {
+    opacity: 0.7;
+    height: 500px;
+    object-fit: cover;
+}
+
+.book_section {
+    margin-top: 100px;
+    height: auto;
+}
+
+.book_inputs select {
+    width: 270px;
+    height: 45px;
+    border: 2px solid #d4a762;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 33px;
+    opacity: 0.7;
+    padding: 3px;
+}
+
+.book_inputs input {
+    width: 270px;
+    height: 45px;
+    border: 2px solid #d4a762;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 33px;
+    padding: 10px;
+}
+
+.book_submit_btn button {
+    background-color: #d4a762;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-left: 355px;
+    margin-top: 30px;
+}
+
+.book_submit_btn button:hover {
+    background-color: black;
+    color: #d4a762;
+}
+
+/* book section and */
+/* 
+team section start */
+
+.team_section {
+    margin-top: 80px;
+}
+
+.team_head button {
+    border: 2px solid #d4a762;
+    border-radius: 30px;
+    width: 130px;
+    background-color: white;
+    margin-left: 220px;
+}
+
+.team_head h1 {
+    font-family: 'Playball', cursive;
+    font-size: 45px;
+    font-weight: 600px;
+    letter-spacing: 2px;
+
+}
+
+.team_head {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.team-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.team-content:hover {
+    background-color: #d4a762 !important;
+}
+
+.team-content:hover h4 {
+    color: black !important;
+}
+
+.text-primary {
+    color: #d4a762 !important;
+}
+
+.team-content {
+    background-color: black !important;
+}
+
+.team-icon {
+    position: absolute;
+    top: -20px;
+    right: -15px;
+    font-size: 20px;
+}
+
+.team-item:hover i {
+    background-color: black !important;
+    color: #d4a762;
+    display: block;
+    transition: all 0.9s ease-in-out;
+}
+
+.team-icon i {
+    background-color: #d4a762;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.hide_icon {
+    display: none;
+}
+
+/* team section and */
+/* contact section start */
+.contact-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.contact-row {
+    background-color: #fff6e9;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right:  auto;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-row button {
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.cnt-input input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #d4a762;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+.cnt-input {
+    margin-top: 10px;
+}
+.cnt-input textarea {
+    width: 100%;
+    height: 120px;
+    border: 2px solid #d4a762;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+  
+}
+.cnt-input button{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #d4a762;
+    border-radius: 10px;
+    background-color: #d4a762;
+    color: white;
+    margin-bottom: 50px;
+}
+.cnt-input button:hover{
+    background-color: black;
+    color: #d4a762;
+}
+.cnt-mail-box{
+    width: 100%;
+    border: 2px solid #d4a762;
+    border-radius: 10px;
+    height: 120px;
+    background-color: white;
+   
+    padding: 20px;
+}
+.mail-box{
+    margin-top: 10px;
+}
+.mail-2 i{
+    font-size: 30px;
+    color: #d4a762;
+
+}
+.cnt-mail-box p{
+    color: grey;
+}
+/* footer section start  */
+.foot{
+    background-color: #FFFCF8;
+}
+.fdata{
+    padding: 30px 0;
+}
+.fbox{
+    width: 300px;
+    padding: 5px 0;
+}
+.fbox a{
+    font-size: 18px;
+    color: #707072;
+    text-decoration: none;
+    line-height: 2.0;
+    font-weight: 410;
+    
+}
+.fbox a h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 530;
+    color: #111;
+}
+.fbox1{
+    width: 300px;
+    padding: 5px 0;
+}
+.fbox1 h5{
+    font-size: 18px;
+    color: #707072;
+    text-decoration: none;
+    line-height: 2.0;
+    font-weight: 410;
+}
+
+
+.ficon{
+    margin-left: auto;
+    margin-right: 10px;  
+}
+.fib{
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    background-color:  #d4a762;
+    border-radius: 20px;
+}
+.fib a{
+    
+    font-size: 21px;
+    text-decoration: none;
+    color: #111;
+}
+.fib a i{
+    margin-left:11px;
+    margin-top: 11px;
+    
+}
+.floc{
+    text-align: center;
+}
+.floc a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    line-height: 2.5;
+    font-weight: 410;
+}
+.floc a span{
+    margin-left: 8px;
+}
+.fcopyr{
+    margin-left: 20px;
+    color: #707072;
+    font-size: 13px;
+    line-height: 2.5;
+    font-weight: 410;
+    letter-spacing: 0.5px;
+}
+
+
+.fbox1 a {
+    font-family: 'Playball', cursive;
+    color: #d4a762 !important;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.fbox1 span {
+    color: black;
+}
